@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Frontend page creation with specific elements that showcases specific personal and real-time data attributes."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Page Creation</title>
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        class="profile-img mb-md"
+        src="assets/me.jpg"
+        alt="loadedincoded"
+        data-testid="slackDisplayImage"
+      />
+
+      <div class="name" data-testid="slackUserName">loadedincoded</div>
+
+      <div class="track mb-md" data-testid="myTrack">Frontend</div>
+
+      <a
+        class="link"
+        href="https://github.com/peterayodeji/frontend-page-creation.git"
+        data-testid="githubURL"
+        >Source Code</a
+      >
+
+      <div class="current mb-sm">
+        <div class="title">Day</div>
+
+        <div class="day" data-testid="currentDayOfTheWeek">Wednesday</div>
+      </div>
+
+      <div class="current">
+        <div class="title">Time (ms)</div>
+
+        <div class="time" data-testid="currentUTCTime">1694118835888</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
